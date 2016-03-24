@@ -7,7 +7,7 @@
 
 
 ##项目安装 
-`yo gulp-angular`
+`yo gulp-angular`  
 `npm install & bower install`  
 
 
