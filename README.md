@@ -1,4 +1,4 @@
-# 这是一个Angular+Meterial Design的Demo
+# 这是一个Angular+Material Design的Demo
 
 该项目与[Fuse](https://github.com/yeoman/generator-angular)采用相同的框架.  
 
