@@ -35,6 +35,7 @@
     $translateProvider.determinePreferredLanguage();
     //when can not determine lang, choose en lang.
     $translateProvider.fallbackLanguage('en');
+    $translateProvider.useSanitizeValueStrategy('escaped');
   }
 
 })();
