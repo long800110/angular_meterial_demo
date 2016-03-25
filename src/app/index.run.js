@@ -6,9 +6,11 @@
     .run(runBlock);
 
   /** @ngInject */
-  function runBlock($log) {
+  function runBlock($rootScope, $state, $log) {
+    $log.debug('runBlock end' + $state);
 
-    $log.debug('runBlock end');
+    //Store state in the root scope for easy access
+    $rootScope.state = $state;
   }
 
 })();
