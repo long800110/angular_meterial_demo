@@ -12,6 +12,7 @@
       'ngResource',
       'ui.router',
       'ngMaterial',
-      'toastr'
+      'toastr',
+      'pascalprecht.translate'
     ]);
 })();
