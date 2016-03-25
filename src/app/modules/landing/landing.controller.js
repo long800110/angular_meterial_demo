@@ -6,11 +6,12 @@
     .controller('LandingController', LandingController);
 
   /** @ngInject */
-  function LandingController($log) {
+  function LandingController($log, LandingData) {
     $log.log("This is landing controller");
-    //var vm = this;
+    var vm = this;
 
     //Data
-    //vm.themes = null;
+    vm.helloText = LandingData.data.helloText;
+
   }
 })();

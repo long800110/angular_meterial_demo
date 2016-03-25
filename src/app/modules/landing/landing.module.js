@@ -16,6 +16,11 @@
             controller: 'LandingController',
             controllerAs: 'vm'
           }
+        },
+        resolve: {
+          LandingData: function(apiResolver){
+            return apiResolver.resolve('landing@get');
+          }
         }
       });
   }

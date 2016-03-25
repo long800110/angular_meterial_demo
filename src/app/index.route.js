@@ -28,12 +28,12 @@
             controllerAs: 'vm'
           },
           'navigation@app': {
-            templateUrl: layouts[layoutStyle].navigation,
+            templateUrl: layouts[layoutStyle].navigation
             //controller: 'MainController',
             //controllerAs: 'vm'
           },
           'toolbar@app': {
-            templateUrl: layouts[layoutStyle].toolbar,
+            templateUrl: layouts[layoutStyle].toolbar
             //controller: 'MainController',
             //controllerAs: 'vm'
           }
